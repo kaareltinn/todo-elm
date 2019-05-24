@@ -1,0 +1,47 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 350px;
+  padding: 25px;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  text-align: left;
+}
+
+.todoInput {
+  display: flex;
+  width: 93%;
+  margin: 5px;
+}
+
+.todoTextInput {
+  font-size: 14px;
+  padding: 10px;
+  width: 80%;
+}
+
+.checkTodo:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+
+.removeTodo {
+  color: red;
+}
+
+.removeTodo:hover {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
